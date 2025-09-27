@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family:'fredoka' , 'sistem-ui' , 'arial' , 'sans-serif';
+    color: black;
+    background: white;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
