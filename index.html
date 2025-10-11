@@ -1,123 +1,126 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>la pizzaria</title>
+    <title>La Pizza - Pizzaria</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-            <header class="topbar">
-                <div class="container row">
-                     <a class="logo" href="#">🍕 la pizzaria</a>
-                     <nav>
-                        <a href="#sobre">sobre</a>
-                        <a href="#cardapio">cardapio</a>
-                        <a href="#contato">contato</a>
-                     </nav> 
+
+    <header class="topbar">
+        <div class="container row">
+            <a class="logo" href="#">🍕 La Pizza</a>
+            <nav>
+                <a href="#Sobre">Sobre</a>
+                <a href="#Cardapio">Cardapio</a>
+                <a href="#Contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="Sobre">
+            <div class="container hero-wrap">
+                <div class="hero-text">
+                    <h1>La Pizza </h1>
+                    <p>Bem vindos ao nosso forno magico! Desde 1910 entregando as melhores Pizzas</p>
                 </div>
-                        
-            </header>
-        <main>
-            <section id="sobre">
-                <div>
-                    <div>
-                        <h1>La pizza A melhor pizzaria de Ribeirao Pires</h1>
-                        <p>Bem vindos ao nosso forno magico!</p>
-                    </div>
-                        <figure>
-                            <img src="img/pzzaria do lc.jpg" 
-                            width="600"
-                            height="420"
-                            alt="Adeliciosa pizza do la pizza"/>
-                        </figure>
-                </div>   
-            </section>
-            <section id="cardapio">
-                <div> 
-                    <h2>cardapio</h2>
-                    <p>as opçoes mais famosas do nosso menu.</p>
-                    <div>
-                        <!--item 1-->
-                         <article>
-                            <figure>
-                                <h3>pizza portuguesa</h3>
-                                <img src="img/pizza-portuguesa-com-bacon-1-2013-07-051138161.jpg" width="300"
-                                height="200" alt="pizza portuguesa"> 
-                                <p>Massa de pizza, Molho de tomate, Queijo muçarela, Presunto picado, Ovos cozidos e picados ou em rodelas, Cebola picada ou em rodelas, Azeitonas fatiadas, que podem ser pretas ou verdes, Orégano para finalizar.</p>
-                                <span>R$ 43,99.</span>
-                            </article>
-                             <!--item 2-->
-                         <article>
-                            <figure>
-                                <h3>pizza calabresa</h3>
-                                <img src="img/g_7b62dbd619.jpg" width="300"
-                                height="200" alt="pizza calabresa">
-                                <p>linguiça fatiada, molho de tomate, queijo mussarela, muita cebola, oregano, azeitonas</p>
-                                <span>R$ 39,99.</span>
-                            </article>
-                             <!--item 3-->
-                         <article>
-                            <figure>
-                                <h3>pizza de frango com catupiry </h3>
-                                <img src="img/ada34cd2101afafaba465aad112ee3c1_XL.jpg" width="300"
-                                height="200" alt="pizza de framgo com catupiry">
-                                <p>molho de tomate, mozzarella, frango desfiado temperado e catupiry.</p>
-                                <span>R$ 45,00.</span>
-                            </article>
-                              <!--item 4-->
-                         <article>
-                            <figure>
-                                <h3>pizza 4 queijos </h3>
-                                <img src="img/729408_orig.png" width="300"
-                                height="200" alt="pizza quatro queijos">
-                                <p>molho de tomate, quatro queijos de sua preferincia, azeitonas e oregano.</p>
-                                <span>R$ 45,00.</span>
-                            </article>
-                              <!--item 5-->
-                         <article>
-                            <figure>
-                                <h3>pizza doce de nutela com morango </h3>
-                                <img src="img/pizza-nutella-com-morango.jpg" width="300"
-                                height="200" alt="pizza doce de nutela com morango">
-                                <p>nutela-creme de avelã e morangos</p>
-                                <span>R$ 50,00.</span>
-                            </article>
-                              <!--item 6-->
-                         <article>
-                            <figure>
-                                <h3>pizza de peperone </h3>
-                                <img src="img/pizza_fritadeira.jpg" width="300"
-                                height="200" alt="pizza de peperone">
-                                <p>molho de tomate, mozzarella, peperone,azeitonas, recheio na borda opicional</p>
-                                <span>R$ 45,00.</span>
-                            </article>
-                    </div>
+                <figure class="hero-img">
+                    <img src="img/pizza_fritadeira.jpg" width="300" height="250" alt="A deliciosa pizza do la pizza" />
+                </figure>
+            </div>
+        </section>
+
+        <section class="alt" id="Cardapio">
+            <div class="container"> 
+                <h2>cardapio</h2>
+                <p class="subititle">as opçoes mais famosas do nosso menu.</p>
+                <div class="menu-grid">
+                    <!--item 1-->
+                     <article class="item">
+                        <figure class="thumb">
+                            <h3>pizza portuguesa</h3>
+                            <img src="img/pizza-portuguesa-com-bacon-1-2013-07-051138161.jpg" width="300"
+                            height="200" alt="pizza portuguesa"> 
+                            <p>Massa de pizza, Molho de tomate, Queijo muçarela, Presunto picado, Ovos cozidos e picados ou em rodelas, Cebola picada ou em rodelas, Azeitonas fatiadas, que podem ser pretas ou verdes, Orégano para finalizar.</p>
+                            <span class="price">R$ 43,99.</span>
+                        </article>
+                         <!--item 2-->
+                     <article class="item">
+                        <figure class="thumb">
+                            <h3>pizza calabresa</h3>
+                            <img src="img/g_7b62dbd619.jpg" width="300"
+                            height="200" alt="pizza calabresa">
+                            <p>linguiça fatiada, molho de tomate, queijo mussarela, muita cebola, oregano, azeitonas</p>
+                            <span class="price">R$ 39,99.</span>
+                        </article>
+                         <!--item 3-->
+                     <article class="item">
+                        <figure class="thumb">
+                            <h3>pizza de frango com catupiry </h3>
+                            <img src="img/ada34cd2101afafaba465aad112ee3c1_XL.jpg" width="300"
+                            height="200" alt="pizza de framgo com catupiry">
+                            <p>molho de tomate, mozzarella, frango desfiado temperado e catupiry.</p>
+                            <span class="price">R$ 45,00.</span>
+                        </article>
+                          <!--item 4-->
+                     <article class="item">
+                        <figure class="thumb">
+                            <h3>pizza 4 queijos </h3>
+                            <img src="img/729408_orig.png" width="300"
+                            height="200" alt="pizza quatro queijos">
+                            <p>molho de tomate, quatro queijos de sua preferincia, azeitonas e oregano.</p>
+                            <span class="price">R$ 45,00.</span>
+                        </article>
+                          <!--item 5-->
+                     <article class="item">
+                        <figure class="thumb">
+                            <h3>pizza doce de nutela com morango </h3>
+                            <img src="img/pizza-nutella-com-morango.jpg" width="300"
+                            height="200" alt="pizza doce de nutela com morango">
+                            <p>nutela-creme de avelã e morangos</p>
+                            <span class="price">R$ 50,00.</span>
+                        </article>
+                          <!--item 6-->
+                     <article class="item">
+                        <figure class="thumb">
+                            <h3>pizza de peperone </h3>
+                            <img src="img/pizza_fritadeira.jpg" width="300"
+                            height="200" alt="pizza de peperone">
+                            <p>molho de tomate, mozzarella, peperone,azeitonas, recheio na borda opicional</p>
+                            <span class="price">R$ 45,00.</span>
+                        </article>
                 </div>
-            </section>
-            <section id="cardapio">
-            </section>
-            <section id="contato"> 
-                <div>
-                    <h3>fale com a gente!</h3>
-                    <form>  
+            </div>
+        </section>
+
+        <section class="container contact-grid" id="Contato">
+            <div>
+                <h3>Fale Conosco!</h3>
+                <form>
                     <label>
-                        nome:
-                        <input type="nome" placaholder="digite se nome completo..." name="nome" required/>
+                        Nome:
+                        <input type="text" placeholder="Digite seu nome completo..." name="nome" required/>
                     </label>
-                    <label > 
-                        telefone:
-                        <input type="tel" placaholder="(11) 911111-1111" name="telefone" required/>
+                    <label>
+                        Telefone:
+                        <input type="tel" placeholder="(11) 91111-1111" name="telefone" required/>
                     </label>
-                    <label > 
-                        mensagens:
+                    <label>
+                        Mensagem:
                         <textarea name="mensagem" placeholder="Escreva sua mensagem..." rows="5"></textarea>
                     </label>
-                        <label >
-                        </label>
-                        <input type="subimit" name="enviar" />
-                    </form>
-                </div>
+                    <input class="btn" type="submit" name="enviar"/>
+                </form>
+            </div>
                 <div> 
                     <h3>
                         onde estamos
